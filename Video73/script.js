@@ -31,7 +31,7 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
 
     card.querySelector('.title').textContent = title;
     card.querySelector('.information ul li:nth-child(1)').textContent = cName;
-    card.querySelector('.information ul li:nth-child(2)').textContent = formatViews(views);
+    card.querySelector('.information ul li:nth-child(2)').textContent = formatViews(views)+ "Views";
     card.querySelector('.information ul li:nth-child(3)').textContent = `${monthsOld} months ago`;
     card.querySelector('.duration .txt').textContent = duration;
     card.querySelector('.thumbnail img').src = thumbnail;

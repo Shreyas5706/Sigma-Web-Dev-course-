@@ -51,7 +51,7 @@ body{
 ul{
     display: flex;
 }
-ul li:first-child{
+ul li{
 
     list-style: none;
 }
