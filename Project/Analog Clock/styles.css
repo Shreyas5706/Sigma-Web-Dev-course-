@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: bisque;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.clock{
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(32,39,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    
+}
+
+.num{
+    position: absolute;
+    background-color: aliceblue;
+    /* inset: 20px; */
+    text-align: center;
+    /* transform: rotateX('30deg'); */
+}
+
+.num  b {
+
+}
